@@ -1,0 +1,33 @@
+
+
+.hero {
+    background-image: url('../media/image.png');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.content {
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__mesage {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 
+- забыл про выравнивание text-align
+- немного тупонул с padding
+- не понятно зачем использовать border-sizing:border-box
+*/

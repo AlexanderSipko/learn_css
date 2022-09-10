@@ -1,0 +1,32 @@
+
+
+.hero {
+   /* set image */
+    background-image: url('../media/image.png');
+    /* size cover all block */
+    background-size: cover;
+    /* position centr vertical and horizontal */
+    background-position: center center;
+    /*  */
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.herro__message {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
