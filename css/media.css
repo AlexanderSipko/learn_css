@@ -1,0 +1,43 @@
+.block {
+    /* margin: 8px 0; */
+    padding: 32px;
+    box-sizing: border-box;
+    color: #fff;
+    font: 32px sans-serif;
+    text-align: center;
+    background: #777;
+    margin: 0 8px;
+  }
+
+.layout {
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.c1, .c2, .c6 {
+  margin: 8px 0;
+  padding: 0 8px;
+  flex: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 900px) {
+  .c6 {flex: 100%;}
+  .c2 {flex: 100%;}
+  .c1 {flex: 50%;}
+}
+
+@media screen and (min-width: 1200px) {
+  .c6 {flex: 100%;}
+  .c2 {flex: 33.33%;}
+  .c1 {flex: 25%;}
+}
+
+
+
+
+
+
